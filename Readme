@@ -1,0 +1,51 @@
+## Inventory Simulation API using FastAPI & OpenAI GPT
+This application simulates and analyzes inventory data using OpenAI's GPT model via a RESTful API built with FastAPI. 
+It is ideal for inventory planners, supply chain analysts, and developers looking to 
+automate reorder quantity recommendations and trend insights using natural language processing.
+
+## Features
+Simulate daily inventory over a given period
+Calculate recommended reorder quantity using dynamic parameters
+Generate daily-level inventory insights using GPT
+Analyze inventory simulation to detect stockouts, reorder opportunities, and optimization trends
+API built with FastAPI for easy integration and testing
+
+## Tech Stack
+Python 3.9+
+FastAPI
+OpenAI GPT-3.5
+Uvicorn (ASGI server)
+Pandas, Matplotlib
+
+## Inventory Simulation API using FastAPI & OpenAI GPT
+
+This application simulates and analyzes inventory data using OpenAI's GPT model via a RESTful API built with FastAPI. It is ideal for inventory planners, supply chain analysts, and developers looking to automate reorder quantity recommendations and trend insights using natural language processing.
+
+---
+
+## Features
+
+- Simulate daily inventory over a given period
+- Calculate recommended reorder quantity using dynamic parameters
+- Generate daily-level inventory insights using GPT
+- Analyze inventory simulation to detect stockouts, reorder opportunities, and optimization trends
+- API built with FastAPI for easy integration and testing
+
+---
+
+## Core Packages Used
+## Package	Purpose
+fastapi	To build the REST API
+uvicorn	ASGI server to run FastAPI
+openai	To interact with OpenAI's GPT models
+pandas	Data manipulation and formatting
+matplotlib	Plotting/visualization support (optional, not used directly yet)
+python-dotenv	To load environment variables from a .env file
+
+## How to Run the App
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/inventory-simulation-api.git
+cd inventory-simulation-api
