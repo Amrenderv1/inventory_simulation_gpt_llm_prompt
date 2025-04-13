@@ -47,5 +47,5 @@ python-dotenv	To load environment variables from a .env file
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/inventory-simulation-api.git
+git clone https://github.com/Amrenderv1/inventory_simulation_gpt_llm_prompt
 cd inventory-simulation-api
